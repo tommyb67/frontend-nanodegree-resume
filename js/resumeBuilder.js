@@ -36,3 +36,47 @@ $('#main').append(bio.image);
 $('#main').append(bio.message);
 $('#main').append(bio.skills);
 
+var currentWork = {};
+
+currentWork.name = "Canon";
+currentWork.address = "One Canon Drive, Melville, NY";
+currentWork.startDate = "August 2015";
+
+$('#main').append(currentWork.name);
+$('#main').append(currentWork.address);
+$('#main').append(currentWork.startDate);
+
+var education = {
+  "schools": [
+  {
+    "name": "State University of New York, College at Cortland",
+    "city": "Cortland",
+    "degree": "BS",
+    "major": "Management Science/Economics"
+  },
+  {
+    "name": "General Assembly",
+    "city": "New York",
+    "degree": "Certificate",
+    "major": "Full Stack Immersive Web Development"
+  },
+  {
+    "name": "Udacity",
+    "city": "Online",
+    "degree": "Nanodegree",
+    "major": "Front End Web Developer"
+  }
+ ]
+}
+
+$('#main').append(schools.name);
+
+
+
+
+
+
+
+
+
+
